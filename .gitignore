@@ -1,0 +1,33 @@
+# Local datasets, generated artifacts, and downloaded weights
+/data/
+/datasets/
+/output/
+/tmp/
+/examples/
+*.pt
+*.pth
+*.mp4
+*.zip
+
+# Python and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv*/
+venv/
+.env
+.env.*
+!.env.example
+
+# Personal reading guide and local reports remain on this machine
+/PEDESTRIAN_TRAINING_BLUEPRINT_VI.md
+/pie_behavior/HUONG_DAN_DOC_CODE_VI.md
+/pie_behavior/README_VI.md
+/pie_behavior/VALIDATION_VI.md
+/pie_behavior/DATA_READINESS_VI.md
+
+# Editor/system caches
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
